@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="aquamirae_ice_maze_removal_1788556824"
+version="1.0.0"
+displayName="海灵物语冰迷宫移除补丁"
+authors="2046820954@qq.com"
+description='''
+禁用 Aquamirae（海灵物语）中 ice_maze（冰迷宫）群系的世界生成：
+通过 biome 标签 (replace=true) + Mixin Accessor 访问 Biome$ClimateSettings 实现。
+'''
+
+[[dependencies.aquamirae_ice_maze_removal_1788556824]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.4.10,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.aquamirae_ice_maze_removal_1788556824]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1, 1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.aquamirae_ice_maze_removal_1788556824]]
+    modId="aquamirae"
+    mandatory=true
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"

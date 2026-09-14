@@ -1,0 +1,2 @@
+Manifest-Version: 1.0
+MixinConfigs: aquamirae_ice_maze_removal_1788556824.mixins.json

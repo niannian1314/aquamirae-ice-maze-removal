@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.autoforged.aquamirae_ice_maze_removal_1788556824.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "aquamirae_ice_maze_removal_1788556824.refmap.json",
+  "mixins": [
+    "BiomeClimateAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

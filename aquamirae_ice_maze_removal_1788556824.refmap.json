@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "cn/autoforged/aquamirae_ice_maze_removal_1788556824/mixin/BiomeClimateAccessor": {
+      "climateSettings": "f_47437_:Lnet/minecraft/world/level/biome/Biome$ClimateSettings;"
+    }
+  },
+  "data": {
+    "searge": {
+      "cn/autoforged/aquamirae_ice_maze_removal_1788556824/mixin/BiomeClimateAccessor": {
+        "climateSettings": "f_47437_:Lnet/minecraft/world/level/biome/Biome$ClimateSettings;"
+      }
+    }
+  }
+}
